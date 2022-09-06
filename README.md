@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center">Tic Tac Toe using the minimax algorithm</h1>
+<h1 align="center">Tic Tac Toe using the Minimax algorithm</h1>
 
 <div align="justify">
 
