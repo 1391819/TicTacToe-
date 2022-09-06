@@ -29,41 +29,36 @@ Client and server:
 
 Choices:
 
-- client:
-
-  - Choice (e.g., '1') - 1 character string (1 byte - 1 bit used)
-
-  <img src="/images/client_choice.png" alt="Client choice" width="700"/>
-
-- server:
-
-  - Choice, Game_Status (e.g., '12') - 2 characters string (1 byte - 2 bits used)
-
-  <img src="/images/server_choice.png" alt="Server choice" width="700"/>
+- **client**:
+  - Choice (e.g., '1')
+    - 1 character string (1 byte - 1 bit used)
+- **server**:
+  - Choice, Game_Status (e.g., '12')
+    - 2 characters string (1 byte - 2 bits used)
 
 Controls:
 
-- server: 400
+- **server**: 400
   - Invalid choice
-- server: 500
+- **server**: 500
   - Invalid choice, cell is not free
 
 Quit:
 
-- client: 100
+- **client**: 100
   - Do not play again
-- client: 200
+- **client**: 200
   - Play again
 
 ## Game Flow
 
-Client
+- **client**
 
-1. Printing game
-2. Move input
-3. Wait for server choice
+  1. Printing game
+  2. Move input
+  3. Wait for server choice
 
-A visual representation can be seen in the following image:
+  A visual representation can be seen in the following image:
 
 <div align="center">
 
@@ -71,12 +66,11 @@ A visual representation can be seen in the following image:
 
 </div>
 
-Server
-
-1. Printing game
-2. Waiting for client choice
-3. Processing own choice using the Minimax algorithm
-4. Performing game status checks (e.g., win or loss, still being played)
+- **server**
+  1. Printing game
+  2. Waiting for client choice
+  3. Processing own choice using the Minimax algorithm
+  4. Performing game status checks (e.g., win or loss, still being played)
 
 ## License
 
