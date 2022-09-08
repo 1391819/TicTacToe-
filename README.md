@@ -16,7 +16,6 @@ With that being said, the minimax algorithm has been used in order to implement 
 
 ## Stack
 
-- C++
 - TCP Sockets
 - Linux system
 - Minimax algorithm
