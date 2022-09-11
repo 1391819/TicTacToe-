@@ -17,7 +17,7 @@ With that being said, the minimax algorithm has been used in order to implement 
 ## Stack
 
 - TCP/IP
-- Linux system
+- Linux
 - Minimax algorithm
 
 ## Protocol
